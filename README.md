@@ -1,10 +1,12 @@
 # NovaWallet Mobile — Send & Save
 
-FirstBank Digital Factory take-home — Frontend Engineer, Mobile (Flutter)
+A Flutter wallet app with offline-first Send Money and NovaSave (savings
+goals) flows.
 
-Targeted versions: **Flutter 3.24.x / Dart 3.5.x** (see `pubspec.yaml` for the
-exact constraint — anything satisfying `sdk: '>=3.5.0 <4.0.0'` and
-`flutter: '>=3.24.0'` will build).
+Targeted versions: **Flutter 3.24.x / Dart 3.5.x minimum** (see `pubspec.yaml`
+for the exact constraint — anything satisfying `sdk: '>=3.5.0 <4.0.0'` and
+`flutter: '>=3.24.0'` will build). Developed and tested against **Flutter
+3.47.4**.
 
 ---
 
