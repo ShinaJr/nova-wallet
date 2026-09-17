@@ -12,15 +12,6 @@ for the exact constraint — anything satisfying `sdk: '>=3.5.0 <4.0.0'` and
 
 ## How to run (single command)
 
-This repo ships only Dart source (no `android/`/`ios/` platform folders,
-to keep the diff reviewable). **First time only:**
-
-```bash
-flutter create .          # generates android/ ios/ etc. without touching lib/ or pubspec.yaml
-```
-
-Then, every time:
-
 ```bash
 make run
 ```
