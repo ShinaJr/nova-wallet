@@ -1,0 +1,61 @@
+{
+  "@@locale": "yo",
+  "sendMoney": "Rán Owó",
+  "recipient": "Olùgbà",
+  "amount": "Iye Owó",
+  "confirm": "Jẹrisi",
+  "confirmAndSend": "Jẹrisi Kí O Sì Rán",
+  "cancel": "Fagilé",
+  "continueLabel": "Tẹ̀síwájú",
+  "accountNumber": "Nọ́mbà Àkáǹtì",
+  "bankName": "Ilé-Ifowópamọ́",
+  "narration": "Àlàyé (kò pọn dandan)",
+  "pendingMessage": "Ó ń dúró — a ó rán nígbà tí ẹ bá padà sí íntánẹ́ẹ̀tì",
+  "offlineBanner": "Ẹ kò sí lórí íntánẹ́ẹ̀tì — a ó fi àwọn iṣe pamọ́ tí a ó sì rán wọn láifọwọ́yí",
+  "offlineConfirmNotice": "Ẹ kò sí lórí íntánẹ́ẹ̀tì. A ó fi ìsanwó yìí pamọ́ tí a ó sì rán an láifọwọ́yí nígbà tí ẹ bá padà sí íntánẹ́ẹ̀tì.",
+  "biometricPrompt": "Jẹrisi ìdánimọ̀ rẹ fún ìsanwó yìí",
+  "availableBalance": "Owó tí ó wà fún lílò",
+  "insufficientFunds": "Owó kò tó",
+  "lookingUpAccount": "Ń wá àkáǹtì...",
+  "confirmTransfer": "Jẹrisi Ìsanwó",
+  "sendTo": "Rán owó sí {name}",
+  "@sendTo": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "idempotencyKeyLabel": "Kọ́kọ́rọ́ ìdánimọ̀ ìsanwó: {key}",
+  "@idempotencyKeyLabel": {
+    "placeholders": {
+      "key": { "type": "String" }
+    }
+  },
+  "recipientAccountHint": "Nọ́mbà àkáǹtì olùgbà, oni-nọ́mbà mẹ́wàá",
+  "recipientFound": "A rí olùgbà: {name}",
+  "@recipientFound": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "amountToSendLabel": "Iye owó tí a ó rán ní Náírà",
+  "availableAmount": "Tí ó wà: {amount}",
+  "@availableAmount": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "exceedsAvailableBalance": "Èyí ju owó tí ó wà lọ. Apá kan owó rẹ lè ti wà ní ìdúró fún ìsanwó mìíràn tí kò tíì rán.",
+  "to": "Sí",
+  "account": "Àkáǹtì",
+  "transferSuccessful": "Ìsanwó Ti Yege",
+  "transferFailed": "Ìsanwó Kùnà",
+  "pendingTitle": "Ó ń dúró",
+  "pendingSubtitle": "A ó rán nígbà tí ẹ bá padà sí íntánẹ́ẹ̀tì",
+  "referenceLabel": "Àmì ìdánimọ̀: {ref}",
+  "@referenceLabel": {
+    "placeholders": {
+      "ref": { "type": "String" }
+    }
+  },
+  "done": "Ti Parí"
+}

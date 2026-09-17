@@ -1,0 +1,72 @@
+name: nova_wallet
+description: >
+  FirstBank NovaPay — NovaWallet Mobile: Send & Save
+  Take-home assessment — Frontend Engineer, Mobile (Flutter)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: '>=3.24.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # ── State management ──────────────────────────────────────────────
+  provider: ^6.1.2
+
+  # ── Dependency injection (singleton infrastructure services) ───────
+  get_it: ^7.7.0
+
+  # ── Local persistence (offline queue + app data) ────────────────────
+  drift: ^2.20.3
+  drift_flutter: ^0.2.1
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # ── Networking (mock API layer via interceptor) ─────────────────────
+  dio: ^5.7.0
+
+  # ── Connectivity detection ───────────────────────────────────────────
+  connectivity_plus: ^6.0.3
+
+  # ── Secure storage (hardware-backed — Keystore / Keychain) ──────────
+  flutter_secure_storage: ^9.2.2
+
+  # ── Idempotency key generation ───────────────────────────────────────
+  uuid: ^4.5.1
+
+  # ── Money / locale formatting ────────────────────────────────────────
+  intl: ^0.20.2
+
+  # ── Biometrics (stretch goal — send confirmation above threshold) ───
+  local_auth: ^2.3.0
+
+  # ── Local notifications (stretch goal — queued send synced) ─────────
+  flutter_local_notifications: ^17.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  drift_dev: ^2.20.3
+  build_runner: ^2.4.12
+  mocktail: ^1.0.4
+  golden_toolkit: ^0.15.0
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  generate: true # enables flutter gen-l10n from lib/l10n/*.arb
+  assets:
+    - assets/icon/icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true

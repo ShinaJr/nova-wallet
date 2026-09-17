@@ -1,0 +1,61 @@
+{
+  "@@locale": "en",
+  "sendMoney": "Send Money",
+  "recipient": "Recipient",
+  "amount": "Amount",
+  "confirm": "Confirm",
+  "confirmAndSend": "Confirm & Send",
+  "cancel": "Cancel",
+  "continueLabel": "Continue",
+  "accountNumber": "Account Number",
+  "bankName": "Bank",
+  "narration": "Narration (optional)",
+  "pendingMessage": "Pending — will send when back online",
+  "offlineBanner": "You're offline — actions will be queued and sent automatically",
+  "offlineConfirmNotice": "You're offline. This will be queued and sent automatically when you reconnect.",
+  "biometricPrompt": "Confirm your identity to proceed with this transfer",
+  "availableBalance": "Available to spend",
+  "insufficientFunds": "Insufficient balance",
+  "lookingUpAccount": "Looking up account...",
+  "confirmTransfer": "Confirm Transfer",
+  "sendTo": "Send to {name}",
+  "@sendTo": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "idempotencyKeyLabel": "Idempotency key: {key}",
+  "@idempotencyKeyLabel": {
+    "placeholders": {
+      "key": { "type": "String" }
+    }
+  },
+  "recipientAccountHint": "Recipient account number, 10 digits",
+  "recipientFound": "Recipient found: {name}",
+  "@recipientFound": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "amountToSendLabel": "Amount to send in Naira",
+  "availableAmount": "Available: {amount}",
+  "@availableAmount": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "exceedsAvailableBalance": "This exceeds your available balance. Some of your balance may already be committed to a pending offline transfer.",
+  "to": "To",
+  "account": "Account",
+  "transferSuccessful": "Transfer Successful",
+  "transferFailed": "Transfer Failed",
+  "pendingTitle": "Pending",
+  "pendingSubtitle": "Will send when back online",
+  "referenceLabel": "Ref: {ref}",
+  "@referenceLabel": {
+    "placeholders": {
+      "ref": { "type": "String" }
+    }
+  },
+  "done": "Done"
+}

@@ -1,0 +1,38 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+pubspec.lock
+*.g.dart
+*.freezed.dart
+
+# NOTE: android/, ios/ etc are intentionally NOT ignored here.
+# Run `flutter create .` once locally (see README Step 1) to generate them,
+# then commit them — this repo should run with a single command for the
+# assessor with zero extra setup steps.
+
+# IDE
+.vscode/
+.idea/
+.history/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Local env
+.env
+
+# Brief provided by FirstBank — not our IP to redistribute in the submission repo
+Doc1_TakeHome_Frontend_Flutter.pdf
+
+# My own Claude Code kickoff prompt — not meant for the submission repo
+CLAUDE_CODE_PROMPT.md
