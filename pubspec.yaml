@@ -1,6 +1,6 @@
 name: nova_wallet
 description: >
-  FirstBank NovaPay — NovaWallet Mobile: Send & Save
+  NovaWallet Mobile: Send & Save
 publish_to: 'none'
 version: 1.0.0+1
 
