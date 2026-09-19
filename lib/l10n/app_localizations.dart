@@ -212,12 +212,6 @@ abstract class AppLocalizations {
   /// **'Send to {name}'**
   String sendTo(String name);
 
-  /// No description provided for @idempotencyKeyLabel.
-  ///
-  /// In en, this message translates to:
-  /// **'Idempotency key: {key}'**
-  String idempotencyKeyLabel(String key);
-
   /// No description provided for @recipientAccountHint.
   ///
   /// In en, this message translates to:

@@ -24,12 +24,6 @@
       "name": { "type": "String" }
     }
   },
-  "idempotencyKeyLabel": "Idempotency key: {key}",
-  "@idempotencyKeyLabel": {
-    "placeholders": {
-      "key": { "type": "String" }
-    }
-  },
   "recipientAccountHint": "Recipient account number, 10 digits",
   "recipientFound": "Recipient found: {name}",
   "@recipientFound": {

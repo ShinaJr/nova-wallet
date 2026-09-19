@@ -73,6 +73,9 @@ class SendMoneyProvider extends ChangeNotifier {
     _amountKobo = amountKobo;
     _narration = narration;
     _idempotencyKey = const Uuid().v4();
+    if (kDebugMode) {
+      debugPrint('SendMoney idempotency key: $_idempotencyKey');
+    }
     _status = SendMoneyStatus.amountEntered;
     notifyListeners();
   }

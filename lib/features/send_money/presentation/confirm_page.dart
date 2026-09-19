@@ -38,15 +38,6 @@ class ConfirmPage extends StatelessWidget {
                       MoneyFormatter.formatKobo(provider.amountKobo),
                       emphasize: true,
                     ),
-                    const SizedBox(height: AppSpacing.sm),
-                    Text(
-                      l10n.idempotencyKeyLabel(provider.idempotencyKey),
-                      style: const TextStyle(
-                        fontSize: 10,
-                        fontFamily: 'monospace',
-                        color: AppColors.inkMuted,
-                      ),
-                    ),
                   ],
                 ),
               ),

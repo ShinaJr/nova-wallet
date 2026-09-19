@@ -71,11 +71,6 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String idempotencyKeyLabel(String key) {
-    return 'Idempotency key: $key';
-  }
-
-  @override
   String get recipientAccountHint => 'Recipient account number, 10 digits';
 
   @override

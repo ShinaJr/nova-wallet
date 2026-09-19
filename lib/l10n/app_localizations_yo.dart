@@ -71,11 +71,6 @@ class AppLocalizationsYo extends AppLocalizations {
   }
 
   @override
-  String idempotencyKeyLabel(String key) {
-    return 'Kọ́kọ́rọ́ ìdánimọ̀ ìsanwó: $key';
-  }
-
-  @override
   String get recipientAccountHint => 'Nọ́mbà àkáǹtì olùgbà, oni-nọ́mbà mẹ́wàá';
 
   @override

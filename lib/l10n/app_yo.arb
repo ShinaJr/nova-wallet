@@ -24,12 +24,6 @@
       "name": { "type": "String" }
     }
   },
-  "idempotencyKeyLabel": "Kọ́kọ́rọ́ ìdánimọ̀ ìsanwó: {key}",
-  "@idempotencyKeyLabel": {
-    "placeholders": {
-      "key": { "type": "String" }
-    }
-  },
   "recipientAccountHint": "Nọ́mbà àkáǹtì olùgbà, oni-nọ́mbà mẹ́wàá",
   "recipientFound": "A rí olùgbà: {name}",
   "@recipientFound": {
